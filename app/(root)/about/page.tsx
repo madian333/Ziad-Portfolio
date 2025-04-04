@@ -1,5 +1,4 @@
 import { Metadata } from "next";
-import Navigation from '@/components/Navigation';
 
 export const metadata: Metadata = {
     title: "About | Ali Madian",
@@ -9,7 +8,6 @@ export const metadata: Metadata = {
 export default function About() {
     return (
         <div className="max-w-3xl mx-auto py-8">
-            <Navigation />
             {/* Header Section */}
             <header className="mb-8">
                 <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-2">About Me</h1>
