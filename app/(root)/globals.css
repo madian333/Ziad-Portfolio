@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    @apply transition-colors duration-200;
+}
+
+/* Your original custom styles here */
+body {
+    @apply bg-white dark:bg-gray-900;
+}
