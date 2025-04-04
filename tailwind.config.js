@@ -8,12 +8,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // Navigation panel colors
-        'nav-light-bg': '#f5e1f5', // More intense violet mix
-        'nav-dark-bg': '#f8e0ff',   // Keep the dark mode color as is
-        // Main background colors
-        'main-light-bg': '#f5e1f5', // Match the nav for consistency
-        'main-dark-bg': '#3a0061',  // Keep the dark mode color as is
+        'light-bg-start': '#ffffff', // White
+        'light-bg-end': '#ddd6fe',   // Light violet
+        'dark-bg-start': '#1f2937',  // Dark gray
+        'dark-bg-end': '#5b21b6',    // Dark violet
       },
     },
   },
