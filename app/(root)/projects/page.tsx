@@ -74,8 +74,8 @@ export default function Projects() {
 
             <div className="grid gap-6">
                 {projects.map((project, index) => (
-                    <div key={index} className="border p-6 rounded-lg bg-white dark:bg-gray-900 border-gray-200 dark:border-gray-700">
-                        <h2 className="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-100">{project.title}</h2>
+                    <div key={index} className="border p-6 rounded-lg bg-white dark:bg-gray-900 border-gray-200 dark:border-gray-700 hover:scale-95 hover:shadow-2xl">
+                        <h2 className="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-100 ">{project.title}</h2>
                         <p className="mb-4 text-gray-700 dark:text-gray-300">{project.description}</p>
                         <div className="flex flex-wrap gap-2 mb-4">
                             {project.tools.map((tool, i) => (
