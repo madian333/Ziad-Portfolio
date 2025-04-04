@@ -12,6 +12,7 @@ export default function RootLayout({
             <body className="min-h-screen bg-main-light-bg dark:bg-main-dark-bg">
                 <ThemeProvider>
                     {children}
+                    {/* This will now only render on home page */}
                     <HomeNavigationButtons />
                 </ThemeProvider>
             </body>
