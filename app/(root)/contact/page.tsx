@@ -1,7 +1,9 @@
-'use client';
+'use client'; // Must be at the very top
 import Navigation from '@/components/Navigation';
+import { useTheme } from '@/context/ThemeContext';
 
 export default function Contact() {
+    const { darkMode } = useTheme(); // Now safely used within client component
     return (
         <div className="max-w-3xl mx-auto py-8">
             <Navigation />
