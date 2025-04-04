@@ -10,6 +10,7 @@ export default function Navigation() {
     const [isOpen, setIsOpen] = useState(false);
 
     const routes = [
+        { path: '/', name: 'Home' }, // Added Home route
         { path: '/about', name: 'About Me' },
         { path: '/projects', name: 'My Projects' },
         { path: '/contact', name: 'Contact' }
@@ -20,6 +21,7 @@ export default function Navigation() {
             <button
                 onClick={toggleDarkMode}
                 className="fixed top-4 right-16 z-50 p-2 rounded-full bg-gray-200 dark:bg-gray-700 text-sm"
+                aria-label={darkMode ? 'Switch to light mode' : 'Switch to dark mode'}
             >
                 {darkMode ? '☀️ Light' : '🌙 Dark'}
             </button>
@@ -36,7 +38,7 @@ export default function Navigation() {
             </button>
 
             {/* Navigation Panel */}
-            <div className={`fixed top-0 right-0 h-full w-64 bg-white dark:bg-gray-800 shadow-lg transform transition-transform duration-300 ease-in-out z-40 ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+            <div className={`fixed top-0 right-0 h-full w-64 bg-gradient-to-br from-white to-violet-100 dark:bg-gradient-to-br dark:from-gray-800 dark:to-violet-900 shadow-lg transform transition-transform duration-300 ease-in-out z-40 ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
                 <div className="flex flex-col space-y-4 p-6 mt-16">
                     {routes.map((route) => (
                         <Link

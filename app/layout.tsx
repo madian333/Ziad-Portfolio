@@ -1,5 +1,6 @@
 import { ThemeProvider } from '@/context/ThemeContext';
 import './globals.css';
+import HomeNavigationButtons from '@/components/HomeNavigationButtons';
 
 export default function RootLayout({
     children,
@@ -8,9 +9,10 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en" suppressHydrationWarning>
-            <body className="min-h-screen bg-white dark:bg-gray-900">
+            <body className="min-h-screen bg-main-light-bg dark:bg-main-dark-bg">
                 <ThemeProvider>
                     {children}
+                    <HomeNavigationButtons />
                 </ThemeProvider>
             </body>
         </html>

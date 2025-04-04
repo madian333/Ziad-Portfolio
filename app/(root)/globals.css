@@ -8,5 +8,15 @@ html {
 
 /* Your original custom styles here */
 body {
-    @apply bg-white dark:bg-gray-900;
+    @apply min-h-screen;
+}
+
+/* Light mode: Mix white with light violet */
+.light-bg {
+    background: linear-gradient(135deg, #FFFFFF 100%, #EDE9FE 100%);
+}
+
+/* Dark mode: Mix gray-900 with dark violet */
+.dark-bg {
+    background: linear-gradient(135deg, #111827 20%, #4C1D95 80%);
 }
