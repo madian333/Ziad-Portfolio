@@ -16,7 +16,7 @@ export default function About() {
 
             {/* Professional Summary */}
             <section className="mb-8 p-6 rounded-lg bg-white dark:bg-gray-900 shadow-md">
-                <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Professional Summary</h2>
+                <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Summary</h2>
                 <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
                     Aspiring Data Scientist with extensive expertise in statistical analysis,
                     machine learning, and predictive modeling. Proficient in Python, SQL,
