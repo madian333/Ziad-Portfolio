@@ -1,8 +1,8 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Ali Madian | Data Scientist",
-    description: "Portfolio of Ali Madian, Data Scientist and ML Engineer",
+    title: "Abdelrahman Azb | Web Devloper",
+    description: "Portfolio of Abdelrahman Azb, Web Devloper and software Engineer",
 };
 
 export default function Home() {
@@ -12,13 +12,13 @@ export default function Home() {
             <section className="min-h-screen pt-32">
                 <div className="flex flex-col items-center text-center">
                     <h1 className="text-4xl font-bold sm:text-5xl md:text-6xl">
-                        Data Science Solutions
+                        Web Development Solutions
                     </h1>
                     <h2 className="mt-6 text-2xl sm:text-3xl text-blue-600 dark:text-blue-400">
-                        I'M ALI MADIAN
+                        I'M Abdelrahman Azb
                     </h2>
                     <p className="mt-6 max-w-md text-lg sm:text-xl">
-                        Aspiring Data Scientist with expertise in statistical analysis and predictive modeling.
+                        Aspiring Web Developer with expertise in Front end and Back end.
                     </p>
                     <div className="mt-8 flex gap-4">
                         <a href="#projects" className="rounded-lg bg-blue-600 px-4 py-2 text-white hover:bg-blue-700">
@@ -122,20 +122,6 @@ export default function Home() {
                             </div>
                         </div>
                     ))}
-                </div>
-            </section>
-
-            {/* Achievements Section */}
-            <section className="py-20">
-                <h2 className="text-3xl font-bold">Achievements</h2>
-                <div className="mt-8">
-                    <div className="rounded-lg border border-gray-200 p-6 shadow-md dark:border-gray-700">
-                        <h3 className="text-xl font-semibold">Top 2 in Machine Learning Contest</h3>
-                        <p className="mt-2 text-gray-600 dark:text-gray-400">
-                            Applied Machine learning algorithms to solve complex computational problems,
-                            ranked 2nd in the 2023 APPLI as a third-year student.
-                        </p>
-                    </div>
                 </div>
             </section>
         </main>

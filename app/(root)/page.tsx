@@ -6,15 +6,15 @@ export default function Home() {
       {/* Main content container with increased spacing */}
       <div className="mt-32 space-y-12"> {/* Increased from mt-16 and space-y-8 */}
         <h1 className="text-5xl md:text-6xl font-bold text-gray-900 dark:text-white">
-          Ali Madian
+          Abdelrahman Azb
         </h1>
 
         <h2 className="text-3xl md:text-4xl text-gray-600 dark:text-gray-300">
-          Data Scientist & ML Engineer
+          Web Developer
         </h2>
 
         <p className="text-2xl md:text-3xl leading-relaxed text-gray-700 dark:text-gray-300">
-          Welcome to my portfolio. I specialize in machine learning and data analysis.
+          Welcome to my portfolio. I specialize in Software and Web developing.
         </p>
       </div>
 
