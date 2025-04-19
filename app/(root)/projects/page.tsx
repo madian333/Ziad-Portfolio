@@ -2,31 +2,36 @@ import { Metadata } from "next";
 import Navigation from '@/components/Navigation';
 
 export const metadata: Metadata = {
-    title: "Projects | Abdelrahman Azb",
-    description: "My Web Development Projects",
+    title: "Projects | Ziad Hassan",
+    description: "My Software Development Projects",
 };
 
 export default function Projects() {
     const projects = [
         {
-            title: "Fast and Furious Series Website",
-            description: "A dynamic website showcasing the Fast and Furious movie series, featuring movie details, trailers, and fan content with a sleek, responsive design.",
-            tools: ["HTML", "CSS", "JavaScript", "React"]
+            title: "Simple Digital Wallet System",
+            description: "A secure and efficient digital wallet application developed in C++, enabling users to manage transactions, check balances, and transfer funds with a focus on performance and reliability.",
+            tools: ["C++"]
         },
         {
-            title: "Gaming Platform with Login",
-            description: "A gaming website with a secure login system, offering a collection of browser-based games and user profiles for tracking scores and achievements.",
-            tools: ["HTML", "CSS", "JavaScript", "Node.js", "MongoDB"]
+            title: "Padel and Gym Management System",
+            description: "A comprehensive management system for padel courts and gym facilities, built in C++, featuring booking management, member tracking, and payment processing for streamlined operations.",
+            tools: ["C++"]
         },
         {
-            title: "Hospital Management System",
-            description: "A comprehensive web application for hospital management, including patient records, appointment scheduling, and staff coordination, built with a focus on usability.",
-            tools: ["HTML", "CSS", "JavaScript", "Python", "Django", "PostgreSQL"]
+            title: "Super Mario Game",
+            description: "A 2D platformer game inspired by Super Mario, developed using C# and SFML, with smooth controls, engaging levels, and retro-style graphics for an immersive gaming experience.",
+            tools: ["C#", "SFML"]
         },
         {
-            title: "Mario-Style Platformer Game",
-            description: "A browser-based platformer game inspired by Super Mario, featuring smooth controls, vibrant graphics, and challenging levels.",
-            tools: ["HTML", "CSS", "JavaScript", "Phaser"]
+            title: "Metro Management System",
+            description: "A Java-based application for managing metro operations, including train scheduling, ticketing, and station management, designed for scalability and ease of use.",
+            tools: ["Java"]
+        },
+        {
+            title: "Railway System Database",
+            description: "A robust SQL database system for railway operations, supporting train schedules, passenger records, and ticketing, optimized for efficient data retrieval and management.",
+            tools: ["SQL"]
         }
     ];
 

@@ -1,8 +1,8 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "About | Abdelrahman Azb",
-    description: "About Abdelrahman Azb - Web Developer",
+    title: "About | Ziad Hassan",
+    description: "About Ziad Hassan - Software Developer",
 };
 
 export default function About() {
@@ -18,7 +18,7 @@ export default function About() {
             <section className="mb-8 p-6 rounded-lg bg-white dark:bg-gray-900 shadow-md">
                 <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Summary</h2>
                 <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                    Passionate Web Developer with expertise in building dynamic, responsive, and user-friendly web applications. Proficient in modern web technologies like React, Node.js, and Django, with a strong foundation in HTML, CSS, and JavaScript. Dedicated to creating seamless digital experiences and solving real-world problems through clean, efficient code.
+                    Dedicated Software Developer with a strong background in designing and implementing robust, scalable software solutions. Skilled in full-stack development, system architecture, and cloud technologies, with expertise in languages like Python, Java, and JavaScript. Committed to delivering high-quality code and innovative solutions to complex technical challenges.
                 </p>
             </section>
 
@@ -31,9 +31,9 @@ export default function About() {
                     <p className="text-gray-700 dark:text-gray-300 mt-2">Relevant Coursework:</p>
                     <div className="flex flex-wrap gap-2 mt-2">
                         {[
-                            "Web Development", "Data Structures", "Algorithms",
-                            "Database Systems", "Software Engineering", "User Interface Design",
-                            "Web Security", "Cloud Computing"
+                            "Software Engineering", "Data Structures", "Algorithms",
+                            "Operating Systems", "Distributed Systems", "Machine Learning",
+                            "Cloud Computing", "Cybersecurity"
                         ].map((course, index) => (
                             <span key={index} className="px-3 py-1 bg-gray-100 dark:bg-gray-800 rounded-full text-sm text-gray-700 dark:text-gray-300">
                                 {course}
@@ -48,9 +48,9 @@ export default function About() {
                 <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-gray-100">Skills</h2>
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
                     {[
-                        "HTML", "CSS", "JavaScript", "React", "Node.js",
-                        "Django", "MongoDB", "PostgreSQL", "TypeScript",
-                        "OOP", "Responsive Design", "APIs"
+                        "Python", "Java", "JavaScript", "React", "Node.js",
+                        "Django", "PostgreSQL", "MongoDB", "AWS",
+                        "Docker", "System Design", "Microservices"
                     ].map((skill, index) => (
                         <div key={index} className="flex items-center">
                             <span className="w-2 h-2 bg-blue-600 dark:bg-blue-400 rounded-full mr-2"></span>
